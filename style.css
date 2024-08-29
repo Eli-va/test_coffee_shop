@@ -1,18 +1,29 @@
 h1 { 
-    color: rgb(11, 109, 76);
-    font-size: 80%; 
+    color: rgb(153, 16, 123);
+    font-size: 40px; 
+    font-family:'Times New Roman';
+    padding-left: 1px;
+    margin-left: 50px;
     }
+ img { 
+    border-radius: 50%;
+    margin-left: 50px;
+    
+}
     body {
-        background-color: lightgray; 
+        background-color: rgb(156, 221, 243); 
     }
     .bluegroup { 
-        color: red; 
-        text-align: center;
-        }
-    #latteParagraph { color: bisque;
-        text-align: center;
-        font-size: 100px;
-        border-color: rgb(125, 95, 153);
-        border-style: solid;
-        border-width: 5px;
+        color: rgb(228, 33, 179); 
+        text-align: left; 
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 1px;
+        margin-left: 50px;
     }
+
+    ul > li {
+        font-size: small;
+        text-align: left;
+        margin-left: 23px;
+     }
