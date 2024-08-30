@@ -1,20 +1,19 @@
 h1 { 
-    color: rgb(153, 16, 123);
-    font-size: 40px; 
-    font-family:'Times New Roman';
+    color: #F33594;
+    font-size: 50px; 
+    font-family:'Creepster', 'Times New Roman';
     padding-left: 1px;
-    margin-left: 50px;
+    margin-left: 91px;
     }
+    /*to make image round use border-radius 50% */
  img { 
     border-radius: 50%;
     margin-left: 50px;
     
 }
-    body {
-        background-color: rgb(156, 221, 243); 
-    }
-    .bluegroup { 
-        color: rgb(228, 33, 179); 
+body {
+        background-color: black; 
+        color: #90FF0A; 
         text-align: left; 
         font-size: 20px;
         font-family: 'Open Sans', sans-serif;
@@ -22,8 +21,12 @@ h1 {
         margin-left: 50px;
     }
 
-    ul > li {
-        font-size: small;
+ul {
+        font-size: 15px;
         text-align: left;
-        margin-left: 23px;
+        margin: -24px;
      }
+
+img:hover{
+        transform: rotateY(180deg);
+      }
