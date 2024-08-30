@@ -11,6 +11,10 @@ h1 {
     margin-left: 50px;
     
 }
+/* hover effect on image */
+img:hover{
+        transform: rotateY(180deg);
+      }
 body {
         background-color: black; 
         color: #90FF0A; 
@@ -27,6 +31,3 @@ ul {
         margin: -24px;
      }
 
-img:hover{
-        transform: rotateY(180deg);
-      }
